@@ -1,30 +1,30 @@
 //array of objects
 
-// const users = [
-//     { name: "Rahul", age: 22 },
-//     { name: "Amit", age: 28 },
-//     { name: "Priya", age: 24 }
-// ];
-// //Print every name. 
-// users.forEach(user => console.log(user.name));
+const users = [
+    { name: "Rahul", age: 22 },
+    { name: "Amit", age: 28 },
+    { name: "Priya", age: 24 }
+];
+//Print every name. 
+users.forEach(user => console.log(user.name));
 
-// //Get all names using map().
-// const names = users.map((user) => {
-//     return user.name;
-// });
-// console.log(names);
+//Get all names using map().
+const names = users.map((user) => {
+    return user.name;
+});
+console.log(names);
 
-// // Find users above 25.
-// const above = users.find((user) => {
-//     return user.age > 25;
-// }); 
-// console.log(above);
+// Find users above 25.
+const above = users.find((user) => {
+    return user.age > 25;
+}); 
+console.log(above);
 
-// //Find "Priya". 
-// const priya = users.find((user) => {
-//     return user.name === "Priya";
-// });
-// console.log(priya);
+//Find "Priya". 
+const priya = users.find((user) => {
+    return user.name === "Priya";
+});
+console.log(priya);
 
 //---------------------------------------------------------------
 
