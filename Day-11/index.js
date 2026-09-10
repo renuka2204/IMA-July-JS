@@ -9,10 +9,10 @@ const users = [
 users.forEach(user => console.log(user.name));
 
 //Get all names using map().
-const names = users.map((user) => {
+const names1 = users.map((user) => {
     return user.name;
 });
-console.log(names);
+console.log(names1);
 
 // Find users above 25.
 const above = users.find((user) => {
